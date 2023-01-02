@@ -14,8 +14,8 @@ import "react-circular-progressbar/dist/styles.css";
 const SIdebar = () => {
   const percentage = Math.floor(Math.random() * 100) + 1;
   return (
-    <div className="bg-black h-screen w-[270px] text-white">
-      <div className="p-2 h-full flex flex-col items-center gap-2">
+    <div className="hidden md:flex justify-center bg-black fixed top-0 left-0 py-4 h-screen w-[270px] text-white">
+      <div className="p-2 h-full flex flex-col items-center justify-center gap-2">
         <h1 className="text-3xl pt-4 ">
           Ski<span className="text-4xl">ll</span>up
         </h1>
