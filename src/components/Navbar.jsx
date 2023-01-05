@@ -22,9 +22,9 @@ const Navbar = () => {
         </span>
       </div>
       <div className="flex items-center gap-3 pr-4">
-        <input type="text" placeholder="write something" className="outline-none border-[1px] placeholder:p-1 p-1 cursor-pointer placeholder:text-black rounded-full border-solid border-gray-700"/>
-        <span className="text-lg bg-white p-2 border-2 rounded-full cursor-pointer">
-          <IoIosNotificationsOutline/>
+        <input type="text" placeholder="write something" className="outline-none border-[1px] placeholder:p-1 p-1 cursor-pointer placeholder:text-black rounded-full border-solid border-gray-700 "/>
+        <span className="text-lg bg-white p-2 border-2 rounded-full cursor-pointer ">
+          <IoIosNotificationsOutline />
         </span>
       </div>
     </div>

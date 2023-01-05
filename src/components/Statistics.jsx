@@ -10,15 +10,15 @@ import { FaScroll } from "react-icons/fa";
 
 const Statistics = () => {
   return (
-    <div className="w-full flex-col md:flex-row items-center pt-2">
+    <div className="w-full grid flex-col md:flex-row items-center pt-2">
       <div className="flex w-full items-center justify-between mb-2 ">
         <h1 className="text-b ase font-semibold text-[#090909]">Statistics</h1>
         <p className="flex items-center bg-[#f2f2f2] text-xs px-2 py-1 rounded-full">
           <span>By hours</span> <AiOutlineDown />{" "}
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-3 items-center ">
-        <div className="grid grid-rows-2 items-center gap-3">
+      <div className="grid  md:grid-cols-3 gap-3 items-center justify-center w-full">
+        <div className="grid grid-rows-2 w-full items-center gap-3">
           <div className="grid grid-cols-3 gap-2 items-center">
             <div className="col col-span-1 bg-[#d1d3fe] w-10 h-10 rounded-full flex justify-center">
               <MdOutlineDescription className="place-self-center" />
@@ -43,7 +43,7 @@ const Statistics = () => {
           </div>
         </div>
         <div>
-          <div className="bg-white rounded-full h-32 w-32 flex flex-col items-center justify-center drop-shadow-xl ">
+          <div className="bg-white rounded-full h-52 md:h-32 w-52 md:w-32 flex flex-col items-center justify-center drop-shadow-xl border-l-[#faf7de] border-l-4">
             <span className="text-[#bababa] text-sm">Total hours</span>
             <h1 className="font-bold text-black text-3xl">289</h1>
           </div>

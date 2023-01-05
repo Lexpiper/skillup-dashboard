@@ -17,13 +17,13 @@ const SIdebar = () => {
     <div className="hidden md:flex justify-center bg-black fixed top-0 left-0 py-4 h-screen w-[270px] text-white">
       <div className="p-2 h-full flex flex-col items-center justify-center gap-2">
         <h1 className="text-3xl pt-4 ">
-          Ski<span className="text-4xl">ll</span>up
+          Ski<span className="text-4xl text-[#A555EC]">ll</span>up
         </h1>
         <div className=" flex flex-col items-center mt-2">
           <img
             src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
             alt="avatar"
-            className=" w-20 h-20 rounded-[50%] mb-2"
+            className=" w-20 h-20 rounded-[50%] mb-2 object-cover"
           />
           <h3 className="text-white text-lg pb-1">Jenny Brunson</h3>
           <p className="text-[#4a4a4a] text-xs pb-2">New York, USA</p>
@@ -56,27 +56,27 @@ const SIdebar = () => {
             </div>
           </CircularProgressbarWithChildren>
           <div className="flex items-center mt-4 gap-2 ">
-            <div className="flex flex-col items-center">
-              <span className="bg-[#5a5a5a] p-2 rounded-full ">
-                <AiOutlineCheckCircle className="text-[#e6e6e6]" />
+            <div className="flex flex-col items-center cursor-pointer">
+              <span className="bg-[#5a5a5a] p-1.5 rounded-full hover:bg-slate-200 hover:text-black `">
+                <AiOutlineCheckCircle className="text-[#e6e6e6] hover:text-black w-full h-full" />
               </span>
               <p className="text-xs pt-1 text-dimWhite">Hours</p>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="bg-[#5a5a5a] p-2 rounded-full ">
-                <GiLevelEndFlag className="text-[#e6e6e6]" />
+            <div className="flex flex-col items-center  cursor-pointer">
+              <span className="bg-[#5a5a5a] p-1.5 rounded-full hover:bg-slate-200 hover:text-black cursor-pointer`">
+                <GiLevelEndFlag className="text-[#e6e6e6] hover:text-black" />
               </span>
               <p className="text-xs pt-1 text-dimWhite">Lvl</p>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="bg-[#5a5a5a] p-2 rounded-full ">
-                <SiConcourse className="text-[#e6e6e6]" />
+            <div className="flex flex-col items-center  cursor-pointer">
+              <span className="bg-[#5a5a5a] p-1.5 rounded-full hover:bg-slate-200 hover:text-black cursor-pointer`">
+                <SiConcourse className="text-[#e6e6e6] hover:text-black" />
               </span>
               <p className="text-xs pt-1 text-dimWhite">Exp</p>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="bg-[#5a5a5a] p-2 rounded-full ">
-                <IoLogoOctocat className="text-[#e6e6e6]" />
+            <div className="flex flex-col items-center  cursor-pointer">
+              <span className="bg-[#5a5a5a] p-1.5 rounded-full hover:bg-slate-200 hover:text-black cursor-pointer`">
+                <IoLogoOctocat className="text-[#e6e6e6] hover:text-black" />
               </span>
               <p className="text-xs pt-1 text-dimWhite">Courses</p>
             </div>

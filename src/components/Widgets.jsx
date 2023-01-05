@@ -3,6 +3,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import { MdOutlineDescription } from "react-icons/md";
 import { IoMdFlash } from "react-icons/io";
 import { BiPaint } from "react-icons/bi";
+import 'animate.css';
 
 const Widgets = () => {
   const percentage = Math.floor(Math.random() * 100) + 1;
@@ -14,14 +15,14 @@ const Widgets = () => {
     <div className="w-full">
       <div className="flex items-center justify-between  text-sm">
         <div className="flex items-center gap-4 text-black text-bold">
-          <span>Inprogress</span>
-          <span>Upcoming</span>
-          <span>Completed</span>
+          <span className="hover:font-semibold cursor-pointer transition-all ease-in-out duration-100">Inprogress</span>
+          <span className="hover:font-semibold cursor-pointer transition-all ease-in-out duration-100">Upcoming</span>
+          <span className="hover:font-semibold cursor-pointer transition-all ease-in-out duration-100">Completed</span>
         </div>
-        <p className="text-[#9bc5d6] text-xs">View all</p>
+        <p className="text-[#9bc5d6] text-xs cursor-pointer hover:text-[#7c9ba7] ransition-all ease-in-out duration-100">View all</p>
       </div>
-      <div className="grid md:grid-cols-3 items-center gap-2 py-2">
-        <div className=" h-48 col-span-1/3 bg-[#d2d4ff] grid grid-rows-2 gap-y-5 p-4 rounded-lg">
+      <div className="grid md:grid-cols-3 items-center gap-4 py-2 animate__animated animate__backInUp animate__fastere">
+        <div className=" h-48 col-span-1/3 bg-[#d2d4ff] grid grid-rows-2 gap-y-5 p-4 rounded-lg hover:">
           <div className="flex justify-center bg-[#ccccdc] w-14 h-14 rounded-full">
             <MdOutlineDescription className=" place-self-center text-2xl " />
           </div>
@@ -32,7 +33,7 @@ const Widgets = () => {
               bgColor="#0f1012"
               height="3px"
               baseBgColor="#bcbfe7"
-              isLabelVisible="true"
+              isLabelVisible={true}
               labelSize="0px"
             />
             <div className="flex items-center justify-between pt-3">
