@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="flex flex-6">
       <SIdebar />
-      <div className="flex-1 px-8 ml-1  md:ml-60">
+      <div className="flex-1 p-0 md:px-8 ml-1  md:ml-60">
         <Navbar />
         <div className="flex items-center w-full h-screen">
           <div className="b w-full  md:w-[70%] h-screen p-4 ">
