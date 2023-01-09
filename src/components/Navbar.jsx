@@ -66,8 +66,11 @@ const Navbar = () => {
           placeholder="write something"
           className="outline-none border-[1px] placeholder:p-1 p-2  placeholder:text-black rounded-full border-solid border-gray-700 "
         />
-        <span className="text-lg bg-white p-2 border-2 rounded-full cursor-pointer ">
+        <span className="text-lg bg-white p-2 border-2 rounded-full cursor-pointer relative ">
           <IoIosNotificationsOutline />
+          <div className="absolute right-0 top-0 left--10 text-xs font-semibold  text-white bg-red-400 text-center rounded-full w-4 h-4">
+            2
+          </div>
         </span>
       </div>
     </div>

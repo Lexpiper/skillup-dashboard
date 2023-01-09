@@ -36,7 +36,7 @@ const Statistics = () => {
             </div>
             <div className="col col-span-2">
               <span className="flex flex-col">
-                <p className="text-[#c6c6c6] text-xs">Writing Courses</p>
+                <p className="text-[#c6c6c6] text-xs">Design Courses</p>
                 <p className="font-semibold text-sm">102 h 4omin</p>
               </span>
             </div>
@@ -55,7 +55,7 @@ const Statistics = () => {
             </div>
             <div className="col col-span-2">
               <span className="flex flex-col">
-                <p className="text-[#c6c6c6] text-xs">Writing Courses</p>
+                <p className="text-[#c6c6c6] text-xs">Drawing Courses</p>
                 <p className="font-semibold text-sm">102 h 4omin</p>
               </span>
             </div>
@@ -66,7 +66,7 @@ const Statistics = () => {
             </div>
             <div className="col col-span-2">
               <span className="flex flex-col">
-                <p className="text-[#c6c6c6] text-xs">Writing Courses</p>
+                <p className="text-[#c6c6c6] text-xs">Other Courses</p>
                 <p className="font-semibold text-sm">102 h 4omin</p>
               </span>
             </div>

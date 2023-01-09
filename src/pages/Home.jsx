@@ -5,6 +5,7 @@ import Statistics from "../components/Statistics";
 import Widgets from "../components/Widgets";
 import Leaders from "../components/Leaders";
 import Advert from "../components/Advert";
+import Demand from "../components/Demand";
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
           <div className="b w-full  md:w-[70%] h-screen p-4 ">
             <Widgets />
             <Statistics />
+            <Demand/>
           
           </div>
           <div className="h-screen  md:w-[30%] hidden md:grid">
