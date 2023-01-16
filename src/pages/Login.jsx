@@ -18,6 +18,7 @@ const Login = () => {
          seterror("all fields are required")
          toast.error('all fields required');
       }
+      localStorage.setItem("login_in_token", 'true')
       
       // FOR LOGOUT ACTION localStorage.removeItem('login_in_token')
       navigate("/");

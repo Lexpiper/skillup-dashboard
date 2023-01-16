@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Singles from "./pages/Singles";
 import New from "./pages/New";
 import List from "./pages/List";
+import Courses from "./pages/Courses";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
+            <Route path="courses" element={<Courses />} />
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userid" element={<Singles />} />

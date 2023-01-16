@@ -4,8 +4,6 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import { IoMdFlash } from "react-icons/io";
 import { BiPaint } from "react-icons/bi";
 
-
-
 const Inprogress = () => {
   const percentage = Math.floor(Math.random() * 100) + 1;
   const int = Math.floor(Math.random() * 3) + 1;
@@ -29,7 +27,9 @@ const Inprogress = () => {
             labelSize="0px"
           />
           <div className="flex items-center justify-between pt-3">
-            <p className="text-xs text-[#a2a5c8]">intensive</p>
+            <p className="text-xs flex items-center  text-[#a2a5c8] ">
+              intensive <span className="ml-2 text-[5px] animate-pulse">🟢</span>
+            </p>
             <p className="text-xs text-[#a2a5c8]">
               <span>{int}</span>/3
             </p>
@@ -51,7 +51,9 @@ const Inprogress = () => {
             labelSize="0px"
           />
           <div className="flex items-center justify-between pt-3">
-            <p className="text-xs text-[#a2a5c8]">intensive</p>
+            <p className="text-xs flex items-center  text-[#a2a5c8] ">
+              intensive <span className="ml-2 text-[5px] animate-pulse">🟢</span>
+            </p>
             <p className="text-xs text-[#a2a5c8]">
               <span>{int}</span>/3
             </p>
@@ -73,7 +75,9 @@ const Inprogress = () => {
             labelSize="0px"
           />
           <div className="flex items-center justify-between pt-3">
-            <p className="text-xs text-[#a2a5c8]">intensive</p>
+            <p className="text-xs flex items-center  text-[#a2a5c8]">
+              intensive <span className="ml-2 text-[5px]  animate-pulse">🟢</span>
+            </p>
             <p className="text-xs text-[#a2a5c8]">
               <span>{int}</span>/3
             </p>
